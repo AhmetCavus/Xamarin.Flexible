@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Xamarin.Flexible.Ahmet_Cavus</id>
+    <id>Xamarin.Flexible</id>
     <title>Xamarin.Flexible</title>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <authors>Ahmet Cavus</authors>
     <owners>Ahmet Cavus</owners>
     <licenseUrl>https://github.com/AhmetCavus/Xamarin.Flexible/blob/master/LICENSE</licenseUrl>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An extension for the Xamarin.Forms Framework. Pages are treated like views using a special rendering procedure. This makes it possible to nest different pages in a flexible way.</description>
     <summary>Nest pages in a flexible way!</summary>
-    <releaseNotes>First release</releaseNotes>
+    <releaseNotes>First release - Alpha</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>Xamarin Android iOS UWP Flexible Page</tags>
     <language>C#</language>
