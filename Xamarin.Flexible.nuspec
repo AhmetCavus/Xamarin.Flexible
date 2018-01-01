@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Xamarin.Flexible</id>
-    <title>Xamarin.Flexible</title>
+    <id>Xamarin.Flexible.Page</id>
+    <title>Xamarin.Flexible.Page</title>
     <version>0.1.0</version>
     <authors>Ahmet Cavus</authors>
     <owners>Ahmet Cavus</owners>
