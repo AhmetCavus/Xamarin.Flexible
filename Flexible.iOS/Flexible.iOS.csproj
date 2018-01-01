@@ -60,13 +60,13 @@
     <Compile Include="ViewControllerContainer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Flexible.Portable\Flexible.Portable.csproj">
-      <Project>{5c991916-a8ac-4a34-99f4-e3f1e6ac6d36}</Project>
-      <Name>Flexible.Portable</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Flexible.Portable\Flexible.Portable.csproj">
+      <Project>{06cfcc38-4d79-4275-aa19-e1d739480e70}</Project>
+      <Name>Flexible.Portable</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
