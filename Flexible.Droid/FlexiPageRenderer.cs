@@ -67,7 +67,7 @@ namespace Xamarin.Flexible.Droid
             //TODO handle current page
             if (page != null)
             {
-                var parentPage = Element.Parent;
+                var parentPage = Element.GetParentPage();
                 page.Parent = parentPage;
 
                 var existingRenderer = page.GetRenderer();
