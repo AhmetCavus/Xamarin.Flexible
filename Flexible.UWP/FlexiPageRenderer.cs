@@ -1,10 +1,10 @@
-﻿using Xamarin.Flexible;
-using Xamarin.Flexible.UWP;
+﻿using Cinary.Flexible;
+using Cinary.Flexible.UWP;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.UWP;
 
 [assembly: ExportRenderer(typeof(FlexiPage), typeof(FlexiPageRenderer))]
-namespace Xamarin.Flexible.UWP
+namespace Cinary.Flexible.UWP
 {
     public class FlexiPageRenderer : ViewRenderer<FlexiPage, Windows.UI.Xaml.FrameworkElement>
     {

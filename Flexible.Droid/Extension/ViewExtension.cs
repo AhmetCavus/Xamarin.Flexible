@@ -4,7 +4,7 @@ using System.Reflection;
 using Xamarin.Forms.Platform.Android;
 using Android.Content;
 
-namespace Xamarin.Flexible.Extension
+namespace Cinary.Flexible.Extension
 {
     public static class ViewExtensions
     {

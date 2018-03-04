@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Xamarin.Flexible
+namespace Cinary.Flexible
 {
     public class FlexiPage : View
     {

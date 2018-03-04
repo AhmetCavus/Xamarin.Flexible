@@ -1,14 +1,13 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using UIKit;
-using Xamarin.Flexible;
-using Xamarin.Flexible.iOS;
+using Cinary.Flexible;
+using Cinary.Flexible.iOS;
 
-[assembly: ExportRenderer (typeof(FlexiPage), typeof(FlexiPageRenderer))]
-namespace Xamarin.Flexible.iOS
+[assembly: ExportRenderer(typeof(FlexiPage), typeof(FlexiPageRenderer))]
+namespace Cinary.Flexible.iOS
 {
-	public class FlexiPageRenderer : ViewRenderer<FlexiPage, ViewControllerContainer>
+    public class FlexiPageRenderer : ViewRenderer<FlexiPage, ViewControllerContainer>
 	{
 		
 		protected override void OnElementChanged (ElementChangedEventArgs<FlexiPage> e)

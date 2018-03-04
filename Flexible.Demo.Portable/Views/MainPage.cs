@@ -1,4 +1,4 @@
-﻿using Xamarin.Flexible;
+﻿using Cinary.Flexible;
 using Xamarin.Forms;
 
 namespace Flexible.Demo
@@ -34,9 +34,8 @@ namespace Flexible.Demo
                     {
                         Title = "About"
                     };
-
                     StackLayout flexiContents = new StackLayout() { HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.FillAndExpand, Spacing = 0 };
-
+                    
                     flexiContents.Children.Add(new FlexiPage { Content = new ContentPage { BackgroundColor = Color.BlueViolet, Content = new Label { Text = "Content Page 1" } }, HeightRequest = 101 });
                     flexiContents.Children.Add(new FlexiPage { Content = new ContentPage { BackgroundColor = Color.BurlyWood, Content = new Label { Text = "Content Page 2" } }, HeightRequest = 101 });
                     flexiContents.Children.Add(new FlexiPage { Content = new ContentPage { BackgroundColor = Color.Coral, Content = new Label { Text = "Content Page 3" } }, HeightRequest = 101 });

@@ -1,5 +1,4 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 using Android.Content;
 using Android.Content.PM;
@@ -16,9 +15,8 @@ namespace Flexible.Demo.Droid
 
             base.OnCreate(bundle);
 
-            global::Xamarin.Forms.Forms.Init(this, bundle);
-
-            LoadApplication(new App());
+            Xamarin.Forms.Forms.Init(this, bundle);
+            LoadApplication(new Flexible.Demo.App());
         }
 
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)

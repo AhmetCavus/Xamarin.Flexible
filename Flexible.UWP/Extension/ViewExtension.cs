@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.UWP;
 using Windows.UI.Xaml;
 
-namespace Xamarin.Flexible
+namespace Cinary.Flexible.UWP
 {
     public static class ViewExtensions
     {

@@ -1,12 +1,12 @@
 ﻿using Android.Views;
-using Xamarin.Flexible;
-using Xamarin.Flexible.Droid;
-using Xamarin.Flexible.Extension;
+using Cinary.Flexible;
+using Cinary.Flexible.Droid;
+using Cinary.Flexible.Extension;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
 [assembly: ExportRenderer(typeof(FlexiPage), typeof(FlexiPageRenderer))]
-namespace Xamarin.Flexible.Droid
+namespace Cinary.Flexible.Droid
 {
     public class FlexiPageRenderer : ViewRenderer<FlexiPage, global::Android.Views.View>
     {

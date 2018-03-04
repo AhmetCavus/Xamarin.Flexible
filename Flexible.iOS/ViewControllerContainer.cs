@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using System.Diagnostics;
 
-namespace Xamarin.Flexible.iOS
+namespace Cinary.Flexible.iOS
 {
 	public class ViewControllerContainer : UIView
 	{
